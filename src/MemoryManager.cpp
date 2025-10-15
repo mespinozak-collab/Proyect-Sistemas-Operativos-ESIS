@@ -25,7 +25,7 @@ void sigchld_handler(int) {
 
 // Implementación del handler de SIGINT (Ctrl+C)
 void sigint_handler(int) {
-    cout << "\n[Shell activa - Ctrl+C ignorado]\n";
+    cout << "\n[El Shell se encuentra activos - comando Ctrl+C ignorado]\n";
 }
 
 // Implementación de Overrides de new/delete 
